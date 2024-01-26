@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,727;1,727&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.container-body-all{
+  display: grid;
+  grid-template-rows: 1fr,1fr;
+  gap: -5px;
+}
+
+.container-body{
+  background-color: rgb(32, 32, 64);
+  background-image: url('../../img/slant.svg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-clip: border-box;
+  display: flex; 
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 600px;
+  padding-bottom: 50px;
+  /* border: 10px solid rgb(177, 216, 3); */
+}
+
+.body-text{
+  color: white;
+  width: 450px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-right: 150px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  
+
+}
+
+.body-text h1 {
+  font-size: 45px;
+  width: 450px;
+  height: 110px;
+  margin-bottom: 20px;
+}
+
+.body-text p {
+  font-size: 18px;
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+.input-text{
+  height: 60px;
+  width: 450px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.input-buttom{
+ margin: auto -125px;
+ background-color: rgb(255, 99, 99);
+ border: 1px solid rgb(255, 99, 99);
+ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+ width: 110px;
+ height: 45px;
+ font-family: "Ubuntu", sans-serif;
+}
+
+.input-buttom:hover{
+  background-color: rgba(255, 99, 99, 0.842);
+ border: 1px solid rgba(255, 99, 99, 0.842);
+}
+
+.body-imagen{
+  width: auto;
+  height: auto;
+  /* border: 1px solid red; */
+}
+
+.container-logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-bottom: 2px solid rgb(32, 32, 64); 
+  background-color: whitesmoke;
+}
+
+.container-logos .logo-img{
+  width: 240px;
+  height: 110px;
+}
+
