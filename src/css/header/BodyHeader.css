@@ -80,7 +80,7 @@
   align-items: center;
   gap: 50px;
   border-bottom: 2px solid rgb(32, 32, 64); 
-  background-color: whitesmoke;
+  background-color: rgb(242, 245, 249);
 }
 
 .container-logos .logo-img{
