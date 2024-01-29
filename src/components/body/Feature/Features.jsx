@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import { FeatureCard } from './FeatureCard'
-import uno from '../../img/icon/001-stats.svg'
-import dos from '../../img/icon/002-coins.svg'
-import tres  from '../../img/icon/003-gold-ingots.svg'
-import cuatro from '../../img/icon/004-notebook.svg'
-import cinco  from '../../img/icon/005-brochure.svg'
-import seis from '../../img/icon/006-garage.svg'
-import '../../css/body/Features.css'
+import uno from '../../../img/icon/001-stats.svg'
+import dos from '../../../img/icon/002-coins.svg'
+import tres  from '../../../img/icon/003-gold-ingots.svg'
+import cuatro from '../../../img/icon/004-notebook.svg'
+import cinco  from '../../../img/icon/005-brochure.svg'
+import seis from '../../../img/icon/006-garage.svg'
+// import '../../css/body/Feature/Features.css'
+import '../../../css/body/Feature/Features.css'
 
 
 export const Features = () => {

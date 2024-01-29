@@ -1,0 +1,111 @@
+.container-pricing {
+  background-color: rgb(242, 245, 249);
+  padding-bottom: 70px;
+  padding-top: 30px;
+}
+
+.header-Pricing{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.header-Pricing p {
+  color: rgb(255, 99, 99);
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  font-size: small;
+}
+
+.header-Pricing h2 {
+  font-weight: bolder;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: -5px;
+}
+
+.switch-plan {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.switch-plan p{
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.switch-plan input{
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch {
+  display: flex ;
+  position: relative;
+  height:fit-content;
+}
+
+.circulo {
+  width: 55px;
+  height: 30px;
+  cursor: pointer;
+  background-color: rgb(255, 99, 99);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.circulo:before {
+  content: "";
+  height: 28px;
+  width: 30px;
+  left: 1px; 
+  top: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  position: absolute;
+}
+
+input:checked + .circulo {
+  background-color: rgb(255, 99, 99);
+}
+
+input:checked + .circulo:before {
+  -webkit-transform: translateX(22px);
+  -ms-transform: translateX(22px);
+  transform: translateX(22px);
+}
+
+.circulo.round {
+  border-radius: 34px;
+}
+
+.circulo.round:before {
+  border-radius: 50%;
+}
+
+.switch-plan .Save{
+  width: fit-content;
+  padding: 5px;
+  background-color: rgb(255, 99, 99);
+  font-size: 11px;
+  color: white;
+  font-weight: bolder;
+  font-family: "Ubuntu", sans-serif;
+  height:fit-content;
+  border-radius: 10px;
+  display: flex;
+  align-self: center;
+  margin-top: -12px;
+}
+
+.par {
+  background-color: rgb(242, 245, 249);
+}
