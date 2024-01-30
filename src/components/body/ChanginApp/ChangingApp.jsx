@@ -1,6 +1,7 @@
 import React from 'react'
 // import '../../css/body/ChangingApp.css'
 import '../../../css/body/Changing-App/ChangingApp.css'
+import '../../../css/body/Changing-App/ResponsiveChan/ResChanging.css'
 
 
 export const ChangingApp = ({ img, left }) => {

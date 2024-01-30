@@ -8,6 +8,7 @@ import cinco  from '../../../img/icon/005-brochure.svg'
 import seis from '../../../img/icon/006-garage.svg'
 // import '../../css/body/Feature/Features.css'
 import '../../../css/body/Feature/Features.css'
+import '../../../css/body/Feature/FeatureRes/FeatureReponsive.css'
 
 
 export const Features = () => {

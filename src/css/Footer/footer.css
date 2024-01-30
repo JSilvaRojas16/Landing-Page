@@ -71,6 +71,11 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+.link{
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
 .footer-two a:hover{
   color: rgb(32, 32, 64);
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 // import '../../css/body/Owner.css'
 import '../../../css/body/Testimonial/Owner.css'
+import '../../../css/body/Testimonial/TestimonialRes.css/ResponsiveTestimonial.css'
 
 import { Slider } from './Slider'
 

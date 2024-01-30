@@ -1,0 +1,92 @@
+@media (width <= 1200px) {
+  .container-all{
+    width: 100%;
+  }
+
+  .container-body{
+    justify-content: center;
+    min-width: auto;
+  }
+
+  .container-body .body-text{
+    width: 100%;
+    justify-content: center;
+    margin-right: 20px;
+    width: fit-content;
+  }
+
+  .body-imagen{
+    width: 400px;
+    height: auto;
+  }
+
+  .container-logos{
+    gap: 5px;
+  }
+
+  .container-logos .logo-img{
+    width: 230px;
+    height: 100px;
+  }
+}
+
+@media (width <= 992px) {
+  .container-body-all{
+    width: 100%;
+  }
+
+  .container-body {
+    flex-flow: column wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-height: auto;
+    min-width: 100%;
+  }
+
+  .container-body .body-imagen{
+    width: 60%;
+  }
+
+  .body-text{
+    width: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .body-text h1{
+    width: fit-content;
+  }
+
+  .body-text p{
+    width: 80%;
+  }
+
+  .body-text form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .body-text form .input-text{
+    width: 70%;
+  }
+
+  .body-text form .input-buttom{
+    width: 30%;
+    margin: auto 1px;
+  }
+
+  .container-logos{
+    width: 100%;
+  }
+  .container-logos .logo-img{
+    width: 20%;
+    height: auto;
+  }
+}
+

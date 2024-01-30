@@ -2,32 +2,68 @@
 
 .container-nav {
   background-color: rgb(32,32,64);
-  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
   /* border: 1px solid red; */
+  padding-top: 10px;
+}
+
+.extra {
+  display: flex;
+  width: 40%;
+  gap: 10px;
+}
+
+.extra .hamburger {
+  display: none;
+}
+
+.extra p{
+  background-color: rgb(32,32,64);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: larger;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  height: 100%;
+  align-items: center;
+}
+
+.menu-list{
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  padding-top: 10px;
 }
 
-.sub-container {
-  /* border: 1px solid red; */
+.hide{
+  display: none;
+}
+
+.menu-list .item-wrap {
   display: flex;
-  flex-flow: row wrap;
+  align-items: center;
 }
 
-.item{
-  /* border: 1px solid red; */
-  color: white;
+.menu-list .item-wrap a {
   list-style: none;
+  cursor: pointer;
+  color: white;
+  font-size: large;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  
 }
 
-.active{
+.menu-list .item-wrap a:hover{
   color: rgb(255, 99, 99);
 }
 
-.item:hover{
-  color: rgb(255, 99, 99);
-}
+

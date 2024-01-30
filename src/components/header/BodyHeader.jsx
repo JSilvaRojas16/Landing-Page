@@ -4,7 +4,9 @@ import adobe from '../../img/logo-adobe.png';
 import google from '../../img/logo-google.png';
 import paypal from '../../img/logo-paypal.png';
 import puma from '../../img/logo-puma.png';
+
 import '../../css/header/BodyHeader.css'
+import '../../css/header/responsive-header/BodyResposive.css'
 
 export const BodyHeader = () => {
   return (

@@ -1,6 +1,7 @@
 import React from 'react'
 // import '../../css/Footer/footer.css'
 import '../../css/Footer/footer.css'
+import '../../css/Footer/ResponsiveFooter/ResponsiveFooter.css'
 
 export const Footer = () => {
   return (
@@ -19,7 +20,7 @@ export const Footer = () => {
 
       <div className='footer-two'>
         <p>This landing-page is made thanks to the template Colorlib obtained from: </p>
-        <a href='https://preview.colorlib.com/theme/easy/index.html'>https://preview.colorlib.com/theme/easy/index.html</a>
+        <a href='https://preview.colorlib.com/theme/easy/index.html' className='link'>https://preview.colorlib.com/theme/easy/index.html</a>
       </div>
     </footer>
   )

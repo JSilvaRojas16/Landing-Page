@@ -17,7 +17,7 @@ export const Blog = () => {
   ]
 
   return (
-    <section className='container-blog'>
+    <section className='container-blog' id='Blog'>
        <div className="header-blog">
         <p>BLOG</p>
         <h2>Blog Posts</h2>

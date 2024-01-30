@@ -9,7 +9,7 @@ export const Pricing = () => {
     setIsYearly(!isYearly)
   }
   return (
-    <section className='container-pricing'>
+    <section className='container-pricing' id='Pricing'>
       <div className="header-Pricing">
         <p>PRICING FOR EVERYONE</p>
         <h2>Our Pricing</h2>

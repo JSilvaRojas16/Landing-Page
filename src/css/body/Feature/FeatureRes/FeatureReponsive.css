@@ -1,0 +1,34 @@
+@media (width <= 1200px) {
+  .container-features{
+    width: 100%;
+  }
+
+  /*Feature Card*/
+  .container-card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .card{
+    width: 30%;
+  }
+
+  .card-text{
+    width: 80%;
+    
+  }
+  
+}
+
+@media (width <= 993px){
+  .container-card{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    min-width: 80%
+  }
+}

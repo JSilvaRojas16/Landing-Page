@@ -1,35 +1,57 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../../css/header/MenuHeader.css'
+import '../../css/header/responsive-header/MenuResponsive.css'
 
 export const MenuHeader = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <>
-      <nav className="container-nav">
-        <div className='sub-container'>
-          <li>
-            <a href='#' className='item'>Easy</a>
-          </li>
-          <li>
-            <a href='#' className='item active'>Home</a>
-          </li>
-          <li className="nav-item dropdown">
-            <a href='#' className='item dropdown-toggle' role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-            <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="#">Menu One</a></li>
-              <li><a className="dropdown-item" href="#">Menu Two</a></li>
-              <li><a className="dropdown-item" href="#">Menu Three</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href='#' className='item'>Inner Page</a>
-          </li>
-          <li>
-            <a href='#' className='item'>Contact Us</a>
-          </li>
+      <nav className="container-nav" id='Home'>
+        <div className="extra">
+          <p>EASY</p>
+          <div className="menu-hamb">
+            <i className="fa-solid fa-bars hamburger" onClick={toggleMenu}></i>
+            <div className={`menu-list hide ${showMenu ? 'show' : ''}`}>
+              <ul className='item-wrap'>
+                <a href='#Home'>Home</a>
+              </ul>
+              <ul className='item-wrap'>
+                <a href='#Pricing'>Our Pricing</a>
+              </ul>
+              <ul className='item-wrap'>
+                <a href='#Blog'>Blogs Post</a>
+              </ul >
+              <ul className='item-wrap'>
+                <a href='#'>Contact Us</a>
+              </ul>
+            </div>
+          </div>
+        </div>
 
+        <div className={`menu-list`}>
+          <ul className='item-wrap'>
+            <a href='#Home'>Home</a>
+          </ul>
+          <ul className='item-wrap'>
+            <a href='#Pricing'>Our Pricing</a>
+          </ul>
+          <ul className='item-wrap'>
+            <a href='#Blog'>Blogs Post</a>
+          </ul >
+          <ul className='item-wrap'>
+            <a href='#'>Contact Us</a>
+          </ul>
         </div>
       </nav>
 
     </>
   )
 }
+
+
+

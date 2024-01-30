@@ -27,7 +27,7 @@ export const Slider = () => {
   };
 
   return (
-    <div className='owner-slider ' >
+    <div className='owner-slider' >
       <div className="slider">
         <Slide key={people[currentIndex].id} img={people[currentIndex].img} />
 
